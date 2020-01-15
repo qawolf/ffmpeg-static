@@ -63,7 +63,7 @@ function getDownloadUrl() {
   var name = platform === "win32" ? "ffmpeg.exe" : "ffmpeg";
   var release =
     process.env.FFMPEG_BINARY_RELEASE || pkg["ffmpeg-static"]["binary_release"];
-  var url = `https://github.com/eugeneware/ffmpeg-static/releases/download/${release}/${platform}-${arch}-${name}`;
+  var url = `https://github.com/qawolf/ffmpeg-static/releases/download/${release}/${platform}-${arch}-${name}`;
   return url;
 }
 
